@@ -1,0 +1,29 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+body {
+  background-color: #2B3040;
+}
+
+section {
+  background-image: url(/img/bg-image.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #212534;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1;
+  max-width: 600px;
+}

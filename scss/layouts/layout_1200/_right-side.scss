@@ -1,0 +1,89 @@
+.right-side {
+
+    h2 {
+        margin-bottom: 15px;
+        padding-top: 0;
+    }
+
+    .release {
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .titles {
+        margin-bottom: 40px;
+    }
+
+    .raitings {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #B7BACD;
+        border: 4px solid #1AE780;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #B7BACD;
+        margin-bottom: 50px;
+    }
+
+    .footers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    span {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFDD3F;
+    }
+
+    h3 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    button {
+        width: 155px;
+        min-height: 60px;
+        background: #13E28D;
+        border-radius: 4px;
+        border-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    button:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+
+
+}

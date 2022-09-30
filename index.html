@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/star-rating-svg.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homework-21</title>
+</head>
+<body>
+    <main>
+        <h1 class="visually-hidden">FarCry</h1>
+        <section>
+            <div class="container">
+                <div class="header-list">
+                    <ul>
+                        <li>
+                            <a href="#" class="hover">
+                                <span class="visually-hidden">Information</span>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#info-icon"></use>
+                                </svg>
+                                Information
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover">
+                                <span class="visually-hidden">Ratings info</span>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#spades-icon"></use>
+                                </svg>
+                                Rating info
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover">
+                                <span class="visually-hidden">Where to buy</span>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#bag-icon"></use>
+                                </svg>
+                                Where to buy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-content">
+                    <div class="left-side">
+                        <img src="./img/image.png" alt="Far Cry poster" width="160" height="230">
+                        <div class="my-rating"></div>
+                    </div>
+                    <div class="right-side">
+                        <div class="titles">
+                            <div>
+                                <h2>FarCry 6</h2>
+                                <h3 class="release">First Released Oct 6, 2021</h3>
+                            </div>
+                            <div id="circle">
+                                <span class="numbers">8.7</span>
+                            </div>
+                        </div>
+                        <p>Far Cry 6 is a 2021 action-adventure first-person shooter
+                            game developed by Ubisoft Toronto. It is the sixth main
+                            installment in the Far Cry series and the successor Far Cry 5.
+                        </p>
+                        <div class="footers">
+                            <div class="price">
+                                <span>20% OFF!</span>
+                                <h3>$59.96</h3>
+                            </div>
+                            <button>Buy it now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/jquery.star-rating-svg.js"></script>
+    <script src="./node_modules/jquery-circle-progress/dist/circle-progress.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

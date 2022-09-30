@@ -1,0 +1,32 @@
+.main-content {
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 60px 40px;
+
+    .left-side {
+        max-width: 160px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 41px;
+        padding-top: 15px;
+
+        .jq-star {
+            margin-right: 10px;
+        }
+
+        .jq-star:last-child {
+            margin-right: 0;
+        }
+
+        img {
+            margin-bottom: 25px;
+        }
+
+
+    }
+    }
