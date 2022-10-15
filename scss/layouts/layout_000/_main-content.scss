@@ -11,12 +11,14 @@
         justify-content: center;
         align-items: center;
 
-        .all-star {
+        ////STARS
+
+        .stars {
             cursor: pointer;
             fill: #8D91A3;
         }
 
-        .all-star svg {
+        .stars svg {
             width: 20px;
             height: 20px;
         }
@@ -30,17 +32,22 @@
             padding-left: 9px;
           }
 
-        .my-rating .all-star:hover svg,
-        .my-rating .all-star:hover ~ span {
+        .my-rating .stars:hover svg,
+        .my-rating .stars:hover ~ span {
             fill: #FFDD3F;
         }
+
+        .my-rating .stars.active svg,
+        .my-rating .stars.active ~ span {
+            fill: #FFDD3F;
+        }
+
+        ////
 
         img {
             margin-bottom: 25px;
         }
-
-
     }
-    }
+}
 
     

@@ -120,11 +120,11 @@ section {
   justify-content: center;
   align-items: center;
 }
-.main-content .left-side .all-star {
+.main-content .left-side .stars {
   cursor: pointer;
   fill: #8D91A3;
 }
-.main-content .left-side .all-star svg {
+.main-content .left-side .stars svg {
   width: 20px;
   height: 20px;
 }
@@ -135,8 +135,12 @@ section {
   padding: 1px;
   padding-left: 9px;
 }
-.main-content .left-side .my-rating .all-star:hover svg,
-.main-content .left-side .my-rating .all-star:hover ~ span {
+.main-content .left-side .my-rating .stars:hover svg,
+.main-content .left-side .my-rating .stars:hover ~ span {
+  fill: #FFDD3F;
+}
+.main-content .left-side .my-rating .stars.active svg,
+.main-content .left-side .my-rating .stars.active ~ span {
   fill: #FFDD3F;
 }
 .main-content .left-side img {
